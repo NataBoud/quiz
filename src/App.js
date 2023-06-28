@@ -56,9 +56,9 @@ function Result({ correct }) {
   return (
     <div className="result">
       <img src="https://cdn-icons-png.flaticon.com/512/2278/2278992.png" />
-      <h2>Вы отгадали {correct} ответа из {questions.length}</h2>
+      <h2>Vous avez deviné  {correct} réponses sur {questions.length}</h2>
       <a href='/'>
-        <button>Попробовать снова</button>
+        <button>Essayez à nouveau</button>
       </a>
     </div>
   );
@@ -68,9 +68,9 @@ function Result1({ correct }) {
   return (
     <div className="result">
       <img src="https://cdn-icons-png.flaticon.com/512/11202/11202610.png" />
-      <h2>Вы отгадали {correct} ответа из {questions.length}</h2>
+      <h2>Vous avez deviné  {correct} réponses sur {questions.length}</h2>
       <a href='/'>
-        <button>Попробовать снова</button>
+        <button>Essayez à nouveau</button>
       </a>
     </div>
   );
@@ -80,9 +80,9 @@ function Result2({ correct }) {
   return (
     <div className="result">
       <img src="https://cdn-icons-png.flaticon.com/512/11202/11202672.png" />
-      <h2>Вы отгадали {correct} ответа из {questions.length}</h2>
+      <h2>Vous avez deviné  {correct} réponse sur {questions.length}</h2>
       <a href='/'>
-        <button>Попробовать снова</button>
+        <button>Essayez à nouveau</button>
       </a>
     </div>
   );
